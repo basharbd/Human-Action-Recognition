@@ -74,9 +74,12 @@ This combination enables the model to effectively handle spatial and temporal as
    - Final training accuracy: **99.34%**.  
    - Minimal divergence between training and validation accuracy, confirming robustness.
   
-  ![Performance Evaluation](https://raw.githubusercontent.com/username/repository-name/branch-name/Screenshots/example.png](https://github.com/basharbd/Human-Action-Recognition/blob/main/Screenshots/Performance%20Evaluation.png?raw=true)
 
+# Performance Evaluation
 
+Here’s the performance evaluation:
+
+![Performance Evaluation](https://raw.githubusercontent.com/basharbd/Human-Action-Recognition/main/Screenshots/Performance%20Evaluation.png)
 
 
 ---
