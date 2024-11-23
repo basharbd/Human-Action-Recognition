@@ -31,8 +31,15 @@ The challenge lies in effectively capturing both **spatial** and **temporal** fe
 ## Methodology  
 This project utilizes a hybrid architecture:  
 1. **Pretrained CNN (InceptionV3)**: Used as a feature extractor to capture spatial information from video frames.  
-2. **RNN with GRU**: Processes the temporal relationships between frames.  
+2. **RNN with LSTM or GRU**: Processes the temporal relationships between frames.  
 3. **Fully Connected Layer**: Performs the final classification.  
+
+
+
+Here’s the CNN LSTM diagram:
+
+![CNN LSTM](https://raw.githubusercontent.com/basharbd/Human-Action-Recognition/main/Screenshots/cnn%20lstm.png)
+
 
 This combination enables the model to effectively handle spatial and temporal aspects of video data, essential for achieving accurate video classification.
 
