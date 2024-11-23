@@ -73,6 +73,11 @@ This combination enables the model to effectively handle spatial and temporal as
 4. **Overfitting Analysis**:  
    - Final training accuracy: **99.34%**.  
    - Minimal divergence between training and validation accuracy, confirming robustness.
+  
+  ![Performance Evaluation](https://raw.githubusercontent.com/username/repository-name/branch-name/Screenshots/example.png](https://github.com/basharbd/Human-Action-Recognition/blob/main/Screenshots/Performance%20Evaluation.png?raw=true)
+
+
+
 
 ---
 
@@ -102,6 +107,21 @@ Future studies could explore:
 ---
 
 ## How to Run  
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
+1. **Clone this repository**  
+   Clone the repository to your local environment or directly into Google Colab.
+
+2. **Download the dataset from the following link:**  
+   
+   [Download Dataset](https://drive.google.com/drive/folders/1BusNDTMVlfGu4ID5E5yvYOPC9i1TrZ1s?usp=sharing)
+
+3. **Open the Project in Google Colab**  
+  
+
+4. **Mount Google Drive**  
+   In the provided notebook, mount your Google Drive using the following code:
+   ```python
+   from google.colab import drive
+   drive.mount('/content/drive')
+
+5. **Run the Training and Evaluation Scripts**  
+  
